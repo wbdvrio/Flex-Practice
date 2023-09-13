@@ -1,0 +1,143 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-image: url("https://namesbee.com/wp-content/uploads/2022/06/baking-team-names-1024x621.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.separate {
+  color: orangered;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: orangered;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+  padding-top: 100px;
+}
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.column h2 {
+  font-size: 48px;
+  margin: 0 0 10px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.column p {
+  font-size: 24px;
+  margin: 0 0 20px;
+  line-height: 1.8;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid orangered;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  border-color: brown;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  color: brown;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+}
+
+.card-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-container h3 {
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+
+.card-container p {
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 1.8;
+}
